@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "VitiCrew",
+      "hasCanvas": false,
+      "bodyTextLen": 3332,
+      "bodyTextHash": "4648b8322e981675e630f52c5c9b2a2c577f40c8e673cd3ae9da36ff33b08ac0",
+      "bodyTextPrefix": "VitiCrew Crew Jobs Briefing Agents Sign in FIJI · PACIFIC · ASIA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "VitiCrew",
+      "hasCanvas": false,
+      "bodyTextLen": 3298,
+      "bodyTextHash": "99bf59a96e758a1ba7df8b7969ba64c2d546bba6f02c967c01d8acffdf581ade",
+      "bodyTextPrefix": "VitiCrew FIJI · PACIFIC · ASIA Fijian seafarers for yachts cross",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (1596 -> 3332 chars, hash mismatch)",
+    "mobile: body text changed (1570 -> 3298 chars, hash mismatch)"
+  ]
+}
